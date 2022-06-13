@@ -1,7 +1,6 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carterwsheppard/readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carterwsheppard/readme-generator/issues"
+  },
+  "homepage": "https://github.com/carterwsheppard/readme-generator#readme",
+  "description": ""
 }
