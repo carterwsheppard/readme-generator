@@ -1,7 +1,7 @@
 
-            <h1><a href="https://github.com/carterwsheppard">GitHub Link</a></h1>
+    [Github Link](https://github.com/c)
 
-    Project Title: readme generator
+    Project Title: c
     Description: undefined
 
     
