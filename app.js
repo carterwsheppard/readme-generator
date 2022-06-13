@@ -5,7 +5,7 @@ const fs = require('fs');
 
 //pull in code from other files
 const fileGenerator = require('./src/file-generator.js');
-const { writeFile, copyFile } = require('./src/file-generator.js'); 
+const { writeFile, copyFile } = require('./src/write-file'); 
 
 
 //Setup prompt function in window to collect needed README information
