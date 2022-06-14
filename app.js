@@ -33,6 +33,20 @@ const promptUser = (questionData) => {
             }
           }
     },
+     //GETTING email
+     {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?',
+        validate: titleInput => {
+            if (titleInput) {
+              return true;
+            } else {
+              console.log('Please enter your email!');
+              return false;
+            }
+          }
+    },
     //GETTING github username
     {
         type: 'input',
@@ -134,20 +148,6 @@ const promptUser = (questionData) => {
             return true;
             } else {
             console.log('Please enter the testing information!');
-            return false;
-            }
-        }
-    },
-    //GETTING Questions
-    {
-        type: 'input',
-        name: 'questions',
-        message: 'Please enter current outstanding questions that you would like to have in your Read Me file:',
-        validate: installInput => {
-            if (installInput) {
-            return true;
-            } else {
-            console.log('Please enter any questions or type N/A!');
             return false;
             }
         }
