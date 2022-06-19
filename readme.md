@@ -1,20 +1,19 @@
 
-    Owner's Name: Carter Sheppard
-    Owner's Github Link:(https://github.com/carterwsheppard)
+    Project Title: ReadMe Generator
 
-    Project Title: Readme Generator
+    Description: This uses node.js to generate readme.md files
 
-    Description: undefined
+    Video Link: N/A (recording now)
 
-    Installation: In order to run this, you'll need to install node, run npm init, and run npm install inquirer.
+    Installation: You'll need to initiate node in the local repo and install inquirer to use this application.
     
-    Usage: To try this application, clone my repo and run node app.js in the command line from the root local repository.
+    Usage: Clone my github repo to your local computer and use the command line to navigate to that folder. Once in folder, type node app.js in the command line.
     
     License: Open Source
     
     Contributing: Carter Sheppard, Vanderbilt Coding Bootcamp
     
-    Tests: This application has been through QA testing by myself but has not been through technical peer review.
+    Tests: This project has already been QAed and does not require further testing at this time. 
     
     Questions: 
     
@@ -25,6 +24,4 @@
     Github: (https://github.com/carterwsheppard)
 
     Email: carterwsheppard@gmail.com
-
-
-    
+      

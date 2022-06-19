@@ -5,6 +5,8 @@ module.exports = templateData => {
 
     Description: ${templateData.description}
 
+    Video Link: ${templateData.video}
+
     Installation: ${templateData.install}
     
     Usage: ${templateData.usage}

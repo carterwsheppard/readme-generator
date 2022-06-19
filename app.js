@@ -89,6 +89,20 @@ const promptUser = (questionData) => {
             }
           }
     },
+    //GETTING DESCRIPTION
+    {
+      type: 'input',
+      name: 'video',
+      message: 'Please enter a link to a demonstration video:',
+      validate: videoInput => {
+          if (videoInput) {
+            return true;
+          } else {
+            console.log('Please enter the video link!');
+            return false;
+          }
+        }
+  },
 //GETTING Install Instructions
     {
         type: 'input',
